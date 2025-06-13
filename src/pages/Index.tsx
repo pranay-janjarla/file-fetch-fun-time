@@ -8,22 +8,22 @@ const Index = () => {
   const files = [
     {
       id: 1,
-      name: "Project Documentation",
-      filename: "documentation.pdf",
-      description: "Complete project documentation including setup instructions, API reference, and usage examples.",
-      size: "2.3 MB",
-      type: "PDF",
-      downloadUrl: "/files/documentation.pdf",
+      name: "Initial Setup Guide",
+      filename: "Things You Need For Initial Setup.docx",
+      description: "Complete setup documentation including all requirements, dependencies, and step-by-step instructions to get started.",
+      size: "1.2 MB",
+      type: "DOCX",
+      downloadUrl: "/files/Things You Need For Initial Setup.docx",
       icon: File
     },
     {
       id: 2,
-      name: "Source Code Package",
-      filename: "source-code.zip",
-      description: "Full source code package with all dependencies and configuration files included.",
-      size: "15.7 MB", 
+      name: "Newsletter AI Package",
+      filename: "Newsletter-ai.zip",
+      description: "Full newsletter AI application package with all source code, configuration files, and dependencies included.",
+      size: "8.5 MB", 
       type: "ZIP",
-      downloadUrl: "/files/source-code.zip",
+      downloadUrl: "/files/Newsletter-ai.zip",
       icon: File
     }
   ];
