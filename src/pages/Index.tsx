@@ -1,4 +1,3 @@
-
 import { Download, File, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -24,26 +23,6 @@ const Index = () => {
       size: "8.5 MB", 
       type: "ZIP",
       downloadUrl: "/files/Newsletter-ai.zip",
-      icon: File
-    },
-    {
-      id: 3,
-      name: "Configuration Data",
-      filename: "config.json",
-      description: "JSON configuration file containing default settings, API endpoints, and application parameters.",
-      size: "45 KB",
-      type: "JSON",
-      downloadUrl: "/files/config.json",
-      icon: File
-    },
-    {
-      id: 4,
-      name: "Additional Resources",
-      filename: "resources.zip",
-      description: "Additional resources archive containing templates, examples, and supplementary materials.",
-      size: "2.8 MB",
-      type: "ZIP",
-      downloadUrl: "/files/resources.zip",
       icon: File
     }
   ];
