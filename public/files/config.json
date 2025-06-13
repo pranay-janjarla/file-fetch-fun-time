@@ -1,0 +1,17 @@
+
+{
+  "appName": "Newsletter AI",
+  "version": "1.0.0",
+  "apiEndpoints": {
+    "base": "https://api.example.com",
+    "newsletter": "/newsletter",
+    "analytics": "/analytics"
+  },
+  "settings": {
+    "maxNewsletters": 100,
+    "defaultTemplate": "modern",
+    "enableAnalytics": true
+  },
+  "supportedLanguages": ["en", "es", "fr", "de"],
+  "lastUpdated": "2024-06-13"
+}
